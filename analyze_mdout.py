@@ -1,3 +1,8 @@
+"""
+This was the homework for session 3.
+"""
+
+
 import os
 import argparse
 
@@ -12,12 +17,6 @@ data = f.readlines()
 f.close()
 
 print(f"Analyzing {filename}")
-
-# data/03_Prod.mdout
-# 03_Prod_Etot.txt
-
-# mdout/polyAT_vac.mdout
-# polyAT_vac_Etot.txt
 
 output_filename = os.path.basename(filename)
 output_filename = output_filename.split('.')[0]
